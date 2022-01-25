@@ -1,0 +1,46 @@
+.banner-main {
+  background-image: url("https://i.ibb.co/P1FggwX/Banner.png");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .banner-shape {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+  }
+  .banner-content {
+    span {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      color: var(--main-color);
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 60px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      margin: 40px 0px;
+      color: var(--text-color);
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      color: var(--smText-color);
+      font-weight: 500;
+    }
+    .common-btn {
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+      padding: 25px 40px;
+      border: none;
+      background: var(--main-color);
+      color: #fff;
+      border-radius: 35px;
+      margin-top: 50px;
+      font-weight: 600;
+    }
+  }
+}
