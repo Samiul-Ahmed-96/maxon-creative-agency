@@ -19,8 +19,8 @@ const Header = () => {
             <Nav className="menu">
               <Link to="/home#banner">Home</Link>
               <HashLink to="/home#about">About</HashLink>
-              <HashLink to="/home">Features</HashLink>
-              <HashLink to="/home">Project</HashLink>
+              <HashLink to="/home#features">Features</HashLink>
+              <HashLink to="/home#projects">Project</HashLink>
               <HashLink to="/home">Blog</HashLink>
               <HashLink to="/home">Contact</HashLink>
             </Nav>
