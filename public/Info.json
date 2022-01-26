@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Satisfied Client",
+    "img": "https://i.ibb.co/JkgHjZP/imgOne.png",
+    "amount": "92"
+  },
+  {
+    "id": "2",
+    "name": "Total Project",
+    "img": "https://i.ibb.co/jfcLYM6/imgTwo.png",
+    "amount": "85"
+  },
+  {
+    "id": "3",
+    "name": "Work Completed",
+    "img": "https://i.ibb.co/PQWM35z/imgThree.png",
+    "amount": "67"
+  },
+  {
+    "id": "4",
+    "name": "Share Coffee",
+    "img": "https://i.ibb.co/2FxwFXk/imgFour.png",
+    "amount": "85"
+  }
+]
