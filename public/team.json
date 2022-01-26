@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Deborah Parkes",
+    "img": "https://i.ibb.co/QjNRLNZ/teamOne.png",
+    "designation": "Software Developer"
+  },
+
+  {
+    "id": "2",
+    "name": "Kathryn Patrick",
+    "img": "https://i.ibb.co/7YhBWTp/teamTwo.png",
+    "designation": "Software Developer"
+  },
+
+  {
+    "id": "3",
+    "name": "Wendy  Frazier",
+    "img": "https://i.ibb.co/6BmhW3r/team-Three.png",
+    "designation": "Software Developer"
+  }
+]

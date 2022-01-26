@@ -14,7 +14,7 @@ const OurInfo = () => {
             <Container>
                 <Row>
                     {
-                        info.map(info => <Col key={info.id} lg={3} md={3} sm={3} xs={12}>
+                        info.map(info => <Col key={info.id} lg={3} md={3} sm={12} xs={12}>
                             <div className="info-content">
                                 <img src={info.img} alt="" />
                                 <div className="info-item">

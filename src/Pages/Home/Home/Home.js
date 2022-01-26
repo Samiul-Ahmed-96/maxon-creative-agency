@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import Features from '../Features/Features';
 import OurInfo from '../OurInfo/OurInfo';
 import Project from '../Project/Project';
+import Team from '../Team/Team';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             <Features/>
             <Project/>
             <OurInfo/>
-            
+            <Team/>
         </main>
     );
 };
