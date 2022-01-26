@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
+import Contact from '../Contact/Contact';
 import Features from '../Features/Features';
 import OurInfo from '../OurInfo/OurInfo';
 import Project from '../Project/Project';
@@ -15,6 +16,7 @@ const Home = () => {
             <Project/>
             <OurInfo/>
             <Team/>
+            <Contact/>
         </main>
     );
 };

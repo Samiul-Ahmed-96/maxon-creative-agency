@@ -24,9 +24,9 @@ const Team = () => {
                             <h4>{member.name}</h4>
                             <span>{member.designation}</span>
                             <ul>
-                                <li><a href="#">facebook</a></li>
-                                <li><a href="#">twitter</a></li>
-                                <li><a href="#">skype</a></li>
+                                <li className='contact'><a href="">facebook</a></li>
+                                <li className='contact'><a href="">twitter</a></li>
+                                <li><a href="">skype</a></li>
                             </ul>
                         </div>
                     </Col>)

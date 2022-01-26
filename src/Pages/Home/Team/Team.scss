@@ -23,7 +23,7 @@
     li {
       list-style: none;
       display: inline-block;
-      margin: 20px 5px;
+      margin: 20px 10px;
       a {
         text-decoration: none;
         font-size: 14px;
@@ -34,13 +34,20 @@
         &:hover {
           color: var(--main-color);
         }
-        &:after {
-          content: "";
-          height: 5px;
-          width: 5px;
-          color: var(--main-color);
-        }
       }
     }
   }
+}
+.contact {
+  position: relative;
+}
+.contact::after {
+  background: #adadad;
+  content: "";
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  border-radius: 50%;
 }
