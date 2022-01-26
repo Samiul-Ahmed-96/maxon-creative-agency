@@ -1,0 +1,43 @@
+.features-main {
+  margin-bottom: 140px;
+  .feature-content {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+    border: 5px solid #f6f7fb;
+    transition: 0.3s;
+    h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-color);
+      margin: 40px 0px;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      color: var(--smText-color);
+      line-height: 2;
+      font-size: 15px;
+    }
+    &:hover {
+      box-shadow: rgba(183, 105, 255, 0.25) 0px 13px 27px -5px,
+        rgba(183, 105, 255, 0.25) 0px 8px 16px -8px;
+    }
+  }
+}
+.section-heading {
+  text-align: center;
+  margin: 90px 0px;
+  span {
+    font-size: 14px;
+    color: var(--main-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  }
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+  }
+}
