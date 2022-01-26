@@ -5,7 +5,7 @@ import "./Banner.scss";
 
 const Banner = () => {
   return (
-    <section className="banner-main">
+    <section id="banner" className="banner-main">
       <div className="banner-shape">
         <img src={bannerShape} alt="" />
       </div>

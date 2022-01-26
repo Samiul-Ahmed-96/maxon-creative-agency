@@ -1,18 +1,9 @@
-.banner-main {
-  background-image: url("https://i.ibb.co/P1FggwX/Banner.png");
+.about-main {
+  background-image: url("https://i.ibb.co/hgBPw4f/about-Us-Bg.png");
   height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  .banner-shape {
-    position: absolute;
-    top: 30%;
-    left: 100px;
-  }
-  .banner-content {
+  background-repeat: no-repeat;
+  margin-top: 150px;
+  .about-content {
     span {
       font-family: "Roboto", sans-serif;
       font-size: 18px;
@@ -25,6 +16,12 @@
       font-weight: 700;
       margin: 40px 0px;
       color: var(--text-color);
+    }
+    h4 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 30px;
     }
     p {
       font-family: "Roboto", sans-serif;
@@ -42,19 +39,6 @@
       border-radius: 35px;
       margin-top: 50px;
       font-weight: 600;
-    }
-  }
-}
-/* Normal desktop :1200px. */
-@media (min-width: 992px) and (max-width: 1500px) {
-  .banner-main {
-    background-position: right;
-    .banner-shape {
-      top: 10%;
-      left: 10px;
-      img {
-        width: 50px;
-      }
     }
   }
 }
