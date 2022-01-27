@@ -29,16 +29,16 @@
       color: var(--smText-color);
       font-weight: 500;
     }
-    .common-btn {
-      font-family: "Poppins", sans-serif;
-      font-size: 14px;
-      padding: 25px 40px;
-      border: none;
-      background: var(--main-color);
-      color: #fff;
-      border-radius: 35px;
-      margin-top: 50px;
-      font-weight: 600;
-    }
   }
+}
+.common-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 25px 40px;
+  border: none;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 35px;
+  margin-top: 50px;
+  font-weight: 600;
 }
