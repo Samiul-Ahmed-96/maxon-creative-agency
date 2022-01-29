@@ -7,7 +7,7 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <section className="header">
+    <header className="header">
       <Navbar fixed="top" className="header" collapseOnSelect expand="lg">
         <Container>
           <Navbar.Brand as={HashLink} to="/home">
@@ -27,7 +27,7 @@ const Header = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </section>
+    </header>
   );
 };
 
