@@ -45,16 +45,3 @@
     }
   }
 }
-/* Normal desktop :1200px. */
-@media (min-width: 992px) and (max-width: 1500px) {
-  .banner-main {
-    background-position: right;
-    .banner-shape {
-      top: 10%;
-      left: 10px;
-      img {
-        width: 50px;
-      }
-    }
-  }
-}

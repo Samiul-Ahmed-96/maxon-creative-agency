@@ -21,8 +21,8 @@ const Header = () => {
               <HashLink to="/home#about">About</HashLink>
               <HashLink to="/home#features">Features</HashLink>
               <HashLink to="/home#projects">Project</HashLink>
-              <HashLink to="/home">Blog</HashLink>
-              <HashLink to="/home">Contact</HashLink>
+              <HashLink to="/home#testimonial">Testmonial</HashLink>
+              <HashLink to="/home#contact">Contact</HashLink>
             </Nav>
           </Navbar.Collapse>
         </Container>

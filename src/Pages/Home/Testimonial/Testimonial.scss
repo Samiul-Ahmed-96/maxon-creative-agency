@@ -31,7 +31,19 @@
 }
 .slick-dots {
   top: 50px !important;
+  left: 100px;
 }
 .slick-dots li.slick-active button:before {
   color: #ff7214 !important;
+}
+.testmonial-img {
+  position: relative;
+}
+
+img.video-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }

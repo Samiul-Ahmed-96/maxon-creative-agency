@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import clientImg from '../../../Images/Testimonial//client.png';
 import company from '../../../Images/Testimonial/company.png';
 import testi from '../../../Images/Testimonial/testi.png';
+import videoicon from '../../../Images/Testimonial/videoIcon.png';
 import './Testimonial.scss';
 
 const Testimonial = () => {
@@ -44,7 +45,7 @@ const Testimonial = () => {
     ]
   };
     return (
-        <section className='testimonial-main'>
+        <section id='testimonial' className='testimonial-main overflow-hidden'>
         <div className="section-heading">
         <span>Testimonials</span>
         <h1>Happy Clients Says</h1>
@@ -53,9 +54,10 @@ const Testimonial = () => {
             <Col lg={6} md={6} sm={12} xs={12}>
             <div className="testmonial-img">
               <img className="w-100" src={testi} alt="" />
+              <img className='video-icon' src={videoicon} alt="" />
             </div>
           </Col>
-            <Col lg={4} md={4} sm={12} xs={12}>
+            <Col lg={4} md={4} sm={12} xs={12} className='p-4'>
             <Slider {...settings}>
               <div className="testimonial-item">
                 <img src={clientImg} alt="" />

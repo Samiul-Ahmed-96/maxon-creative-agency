@@ -1,0 +1,128 @@
+/* Normal desktop & Laptop */
+@media (min-width: 992px) and (max-width: 1500px) {
+  .banner-main {
+    background-position: right;
+    .banner-shape {
+      top: 10%;
+      left: 10px;
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  .about-main {
+    background-position: top;
+    margin-top: 60px;
+    .about-content {
+      background: #f7f7f7;
+      padding: 30px;
+    }
+  }
+  .features-main {
+    margin-top: 280px;
+  }
+  .contact-main {
+    margin-top: 60px;
+  }
+}
+/* Large Mobile */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .banner-main {
+    background-position: none;
+    .banner-shape {
+      display: none;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  .about-main {
+    background-position: top;
+    margin-top: 60px;
+    .about-content {
+      background: #f7f7f7;
+      padding: 30px;
+    }
+  }
+  .features-main {
+    margin-top: 380px;
+  }
+  .contact-main {
+    margin-top: 60px;
+  }
+  .info-main .info-item h4 {
+    font-size: 16px;
+  }
+  .project-content {
+    padding: 30px;
+  }
+  .footer-main .heading {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .contact-main {
+    margin-top: 60px;
+  }
+  .testimonial-item .client-info {
+    flex-direction: column;
+  }
+  .contact-info span {
+    font-size: 12px;
+  }
+}
+/* Small Mobile */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .banner-main {
+    background-position: none;
+    .banner-shape {
+      display: none;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  .about-main {
+    background-position: none;
+    margin-top: 0px;
+    .about-content {
+      background: #f7f7f7;
+      padding: 30px;
+    }
+  }
+  .features-main {
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+  .contact-main {
+    margin-top: 60px;
+  }
+  .info-main .info-item h4 {
+    font-size: 16px;
+  }
+  .project-content {
+    padding: 30px;
+  }
+  .footer-main .heading {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .contact-main {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .features-main {
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+  .about-main .about-content h1 {
+    font-size: 48px;
+  }
+  .header .navbar-nav a {
+    margin: 0px 0px;
+  }
+  .features-main {
+    margin-bottom: 0px;
+  }
+}
