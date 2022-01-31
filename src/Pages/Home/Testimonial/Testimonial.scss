@@ -1,0 +1,37 @@
+.testimonial-item {
+  img {
+    width: 150px;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--smText-color);
+    margin: 40px 0px;
+  }
+  .client-info {
+    img {
+      margin-right: 30px;
+    }
+    h5 {
+      color: var(--bg-color);
+      font-family: "Poppins", sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    span {
+      font-size: 15px;
+      color: var(--smText-color);
+      font-family: "Poppins", sans-serif;
+    }
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+.slick-dots {
+  top: 50px !important;
+}
+.slick-dots li.slick-active button:before {
+  color: #ff7214 !important;
+}

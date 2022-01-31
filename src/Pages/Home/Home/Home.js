@@ -6,6 +6,7 @@ import Features from '../Features/Features';
 import OurInfo from '../OurInfo/OurInfo';
 import Project from '../Project/Project';
 import Team from '../Team/Team';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Project/>
             <OurInfo/>
             <Team/>
+            <Testimonial/>
             <Contact/>
             
         </main>
