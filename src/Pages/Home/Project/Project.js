@@ -1,4 +1,6 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 import btnIcon from "../../../Images/iconOne.png";
 import btnIconTwo from "../../../Images/iconTwo.png";
@@ -8,6 +10,9 @@ import picTwo from "../../../Images/Project/picTwo.png";
 import "./Project.scss";
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section className="projects-main overflow-hidden" id="projects">
       <div className="section-heading">
@@ -34,14 +39,14 @@ const Project = () => {
           </div>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12}>
-          <div className="project-img">
+          <div data-aos="zoom-out-right" className="project-img">
             <img className="w-100" src={picOne} alt="" />
           </div>
         </Col>
       </Row>
       <Row className="align-items-center my-5">
         <Col lg={6} md={6} sm={12} xs={12}>
-          <div className="project-img">
+          <div data-aos="zoom-out-left" className="project-img">
             <img className="w-100" src={picTwo} alt="" />
           </div>
         </Col>
@@ -79,13 +84,13 @@ const Project = () => {
               forth Tree fruitful may May light that thating
             </p>
             <div className="project-btn">
-              <button >LEARN MORE</button>
+              <button>LEARN MORE</button>
               <img src={btnIcon} alt="" />
             </div>
           </div>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12}>
-          <div className="project-img">
+          <div data-aos="zoom-out-right" className="project-img">
             <img className="w-100" src={picThree} alt="" />
           </div>
         </Col>

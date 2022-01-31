@@ -1,9 +1,14 @@
-import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import bannerShape from "../../../Images/Banner/banner-shape.png";
 import "./Banner.scss";
 
 const Banner = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <section id="banner" className="banner-main">
       <div className="banner-shape">
@@ -12,7 +17,7 @@ const Banner = () => {
       <Container className="banner-container">
         <Row className="align-items-center">
           <Col lg={6} md={6} sm={12} xs={12}>
-            <div className="banner-content">
+            <div data-aos="fade-right" className="banner-content">
               <span>Creative Agency</span>
               <h1>Building Brand is Our Business</h1>
               <p>
