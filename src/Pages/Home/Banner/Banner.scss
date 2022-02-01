@@ -11,6 +11,7 @@
     position: absolute;
     top: 30%;
     left: 100px;
+    animation: banner-shape-spin infinite 20s linear;
   }
   .banner-content {
     span {
@@ -32,16 +33,45 @@
       color: var(--smText-color);
       font-weight: 500;
     }
-    .common-btn {
-      font-family: "Poppins", sans-serif;
-      font-size: 14px;
-      padding: 25px 40px;
-      border: none;
-      background: var(--main-color);
-      color: #fff;
-      border-radius: 35px;
-      margin-top: 50px;
-      font-weight: 600;
-    }
+  }
+}
+.common-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 25px 40px;
+  border: none;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 35px;
+  margin-top: 50px;
+  font-weight: 600;
+  transition: 0.3s;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+}
+@keyframes banner-shape-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

@@ -60,20 +60,22 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <img src={adress} alt="" />
-                <span>67 Sasha Cove,67 Sasha Cove Eest, Andrewburgh, ML11 DB innings
-                West pink city</span>
+                <span>Dhanmondi 1209 , Dhaka , Bangladesh</span>
               </div>
               <div className="contact-item">
                 <img src={phone} alt="" />
-                <span>02 639 4982 2698 - 2</span>
+                <span>+880-1884471747</span>
               </div>
               <div className="contact-item">
                 <img src={email} alt="" />
-                <span>info@themeies.com</span>
+                <span>dev.samiulahmed@gmail.com</span>
               </div>
             </div>
           </Col>
         </Row>
+        <div className="author text-center my-5">
+          <p>2022 Developed by Md. Samiul Ahmed </p>
+        </div>
       </Container>
     </footer>
   );
